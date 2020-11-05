@@ -2,7 +2,7 @@
 
 buildJar(){
   from=$1
-  to=$1
+  to=$2
   echo "Transferring JAR ..."
   cp $from $to
   echo "Transferring DONE"
