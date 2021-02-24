@@ -1,6 +1,4 @@
 #!/bin/sh
 
-TAG=$1
-
-docker build -t enterprisedlt/fabric-jar-env:${TAG} .
-docker tag enterprisedlt/fabric-jar-env:${TAG} enterprisedlt/fabric-jar-env
+docker build -t enterprisedlt/fabric-jar-env:1.4.8 .
+docker tag enterprisedlt/fabric-jar-env:1.4.8 enterprisedlt/fabric-jar-env
